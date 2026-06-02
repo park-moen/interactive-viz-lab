@@ -16,7 +16,7 @@ export default antfu(
     plugins: betterTailwindcss.configs.recommended.plugins,
     settings: {
       'better-tailwindcss': {
-        entryPoint: 'src/index.css',
+        entryPoint: 'src/app/styles.css',
       },
     },
     rules: betterTailwindcss.configs.recommended.rules,
