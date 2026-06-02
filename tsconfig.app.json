@@ -12,8 +12,14 @@
     "types": ["vite/client"],
     "allowImportingTsExtensions": true,
 
-    "noFallthroughCasesInSwitch": true,
+    /* Path aliases */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
     /* Linting */
+    "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noEmit": true,
