@@ -1,9 +1,7 @@
-function App() {
-  return (
-    <div>
-      interactive-viz-lab
-    </div>
-  );
-}
+import { RouterProvider } from 'react-router';
 
-export default App;
+import { router } from './router';
+
+export default function App() {
+  return <RouterProvider router={router} />;
+}
