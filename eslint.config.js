@@ -13,6 +13,11 @@ export default antfu(
     ignores: ['**', '!src/**'],
   },
   {
+    rules: {
+      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+    },
+  },
+  {
     plugins: betterTailwindcss.configs.recommended.plugins,
     settings: {
       'better-tailwindcss': {
